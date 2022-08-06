@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    user-select: none;
+}
+.card-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    z-index: 2;
+    opacity: 98%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+}
+.form > * {
+    margin: 10px 0;
+}
+.name-input {
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 5px;
+}
+.accept-buttons > button {
+    padding: 10px 0px;
+    width: 200px;
+    margin: 0 10px;
+    font-size: 1.6rem;
+}
+.nsel {
+    background-color: whitesmoke;
+    border: none;
+}
+.nsel:hover{
+    background-color: lightgray;
+}
+.selected {
+    background-color: gold;
+    box-shadow: 0 0 2px black;
+    font-weight: bold;
+}
+.grayed {
+    color: lightgray;
+}
+.attending {
+    display: flex;
+}
+h2 > button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    background-color: whitesmoke;
+}
+.arrow:hover {
+    background-color: gold;
+}
+.attendees {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.submit {
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    border: none;
+    background-color: whitesmoke;
+}
+.submit:hover {
+    background-color: gold;
+}
+.error {
+    color: red;
+}

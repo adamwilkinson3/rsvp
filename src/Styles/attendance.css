@@ -1,0 +1,45 @@
+.guests-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 2;
+}
+.link {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    user-select: text;
+}
+.table-header {
+    margin-top: 30px;
+}
+.scroll-table {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+.guests-table {
+    text-align: center;
+    margin-bottom: 60px;
+    border: 2px solid black;
+    border-spacing: 0;
+}
+.guests-table > thead > tr > th {
+    padding: 10px 50px;
+    color: white;
+    background-color: gray;
+}
+.guests-table > tbody > tr > td {
+    padding: 5px;
+}
+.guests-table > tbody > tr:nth-child(even) {
+    background-color: lightgray;
+}
+.delete-user {
+    margin-top: 30px;
+}
