@@ -27,7 +27,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login />} />
-          <Route path='/rsvp/4' element={<RSVP />} />
+          <Route path='/rsvp/:id' element={<RSVP />} />
           <Route path='/attendance' element={<Attendance />} />
         </Routes>
       </BrowserRouter>

@@ -25,7 +25,7 @@ function Card() {
                         name: name,
                         accept: accept,
                         attending: accept ? attendees : 0,
-                        ownerId: parseInt(params.id) || 1
+                        ownerId: parseInt(params.id) || 4
                     },
                     onCompleted: () => {
                         setInputError('RSVP SENT')
